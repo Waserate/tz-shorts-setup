@@ -1,0 +1,3 @@
+# keep CapCut files byte-for-byte; shell scripts must stay LF
+capcut-donor/** -text
+*.sh text eol=lf
