@@ -1,0 +1,20 @@
+# created by setup.ps1 on each PC
+shorts-pipeline/venv/
+shorts-pipeline/models/
+shorts-pipeline/backup/
+__pycache__/
+remotion/node_modules/
+remotion/out/
+setup.log
+
+# per-clip work files never belong in the repo
+shorts-pipeline/*.srt
+shorts-pipeline/*_pieces*.json
+shorts-pipeline/out.*
+shorts-pipeline/chunk_report.txt
+
+# secrets / logins
+.env
+*.env
+storage_state.json
+cookies*.txt
